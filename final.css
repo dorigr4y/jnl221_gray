@@ -7,7 +7,7 @@
 	margin-bottom: 0;
 }
 p {
-	font-family: "Times New Roman", serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 }
 /*I added a sticky header! Just in case someone is silly and forgets what they're doing.*/
@@ -19,21 +19,22 @@ p {
 	left: 0;
 	margin: 0 auto;
 	height: auto;
-	font-weight: bold;
+	font-weight: ;
 	font-size: 50px;
 	text-align: center;
-	font-family: 'Georgia', serif;
-	color: #2292a4;
+	font-family: 'Limelight', sans-serif;
+	color: #B8860B;
 	background-color: #ffeff2;
 
 }
 h4 {
-	font-style: italic;
+	font-style: ;
 	text-align: center;
-	font-size: 40px;
-	font-family: 'Georgia', serif;
+	font-size: 33px;
+	font-family: 'Montserrat', sans-serif; font-weight: 900;
 }
 h3 {
+	font-family: 'Montserrat', sans-serif; font-weight: 700;
 	font-size: 30px;
 }
 img {
@@ -48,17 +49,13 @@ img {
 
 
 /*Don't worry about this section yet*/
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 1000px)
 {
- .list {
- 	float: none;
- 	min-width: 90%;
- 	margin-left: 10px;
- 	margin-bottom: 30px;
- 	margin-top: 30px;
- }
  iframe {
  	min-width: 90%;
  	margin-right: 10px;
  }
+ .space {
+	margin-top: 200px;
+}
 }
